@@ -8,27 +8,38 @@
     <link rel="stylesheet" href="main.js" />
     <title>Calculator</title>
   </head>
-  <body>
-    <main class="calculatorTop">
-      <button class="clear">C</button>
-      <div class="answerBox">0</div>
-      <br />
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-      <button>/</button>
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
-      <button>X</button>
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
-      <button>-</button>
-      <button>0</button>
-      <button>.</button>
-      <button>=</button>
-      <button>+</button>
-    </main>
+  <body id="calculatorContainer">
+    <div class="topRow">
+      <div class="clear">
+        <button>C</button>
+      </div>
+      <div class="answerBox">
+        <p>0</p>
+      </div>
+    </div>
+    <div class="buttonRows">
+      <button class="numButton">7</button>
+      <button class="numButton">8</button>
+      <button class="numButton">9</button>
+      <button class="divButton">/</button>
+    </div>
+    <div class="buttonRows">
+      <button class="numButton">4</button>
+      <button class="numButton">5</button>
+      <button class="numButton">6</button>
+      <button class="multiplyButton">X</button>
+    </div>
+    <div class="buttonRows">
+      <button class="numButton">1</button>
+      <button class="numButton">2</button>
+      <button class="numButton">3</button>
+      <button class="subtractButton">-</button>
+    </div>
+    <div class="buttonRows">
+      <button class="numButton">0</button>
+      <button class="numButton">.</button>
+      <button class="equalsButton">=</button>
+      <button class="addButton">+</button>
+    </div>
   </body>
 </html>

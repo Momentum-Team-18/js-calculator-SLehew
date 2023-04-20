@@ -2,14 +2,62 @@
 
 html * {font-family: Oswald, Georgia, serif}
 
-body {
-    display: flex;
+.calculatorContainer {
+    border: 5px solid blue;
+       
 }
 
-.calculatorTop {
-    flex-direction: row;
+.topRow {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding: 2px;
+    height: 3rem;
+    width: 100%;
+    border: 2px solid red;
+    
 }
 
 .clear {
+    justify-content: flex-start;
+    flex-grow: 1;
     
+}
+.answerBox {
+    text-align: right;
+    border: 2px solid blueviolet;
+    align-content: end;
+    flex-grow: 4;
+
+}
+
+.buttonRows {
+    display: flex;
+    flex-grow: 1;
+    border: 2px solid green;
+
+}
+
+.numButton {
+    flex-grow: 1;
+}
+
+.divButton {
+    flex-grow: 1;
+}
+
+.multiplyButton {
+    flex-grow: 1;
+}
+
+.subtractButton {
+    flex-grow: 1;
+}
+
+.equalsButton {
+    flex-grow: 1;
+}
+
+.addButton {
+    flex-grow: 1;
 }
