@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+
+html * {font-family: Oswald, Georgia, serif}
+
+body {
+    display: flex;
+}
+
+.calculatorTop {
+    flex-direction: row;
+}
+
+.clear {
+    
+}
