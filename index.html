@@ -4,42 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="main.js" />
+    <link rel="stylesheet" href="main.css" defer />
+    <script src="main.js" defer></script>
     <title>Calculator</title>
   </head>
   <body id="calculatorContainer">
     <div class="topRow">
-      <div class="clear">
-        <button>C</button>
-      </div>
-      <div class="answerBox">
-        <p>0</p>
-      </div>
+      <div class="clear">C</div>
+      <div id="answerBox">0</div>
     </div>
     <div class="buttonRows">
-      <button class="numButton">7</button>
-      <button class="numButton">8</button>
-      <button class="numButton">9</button>
-      <button class="divButton">/</button>
+      <div class="numButtons">7</div>
+      <div class="numButtons">8</div>
+      <div class="numButtons">9</div>
+      <div class="divButton">/</div>
     </div>
     <div class="buttonRows">
-      <button class="numButton">4</button>
-      <button class="numButton">5</button>
-      <button class="numButton">6</button>
-      <button class="multiplyButton">X</button>
+      <div class="numButtons">4</div>
+      <div class="numButtons">5</div>
+      <div class="numButtons">6</div>
+      <div class="numButtons">X</div>
     </div>
     <div class="buttonRows">
-      <button class="numButton">1</button>
-      <button class="numButton">2</button>
-      <button class="numButton">3</button>
-      <button class="subtractButton">-</button>
+      <div class="numButtons">1</div>
+      <div class="numButtons">2</div>
+      <div class="numButtons">3</div>
+      <div class="numButtons">-</div>
     </div>
     <div class="buttonRows">
-      <button class="numButton">0</button>
-      <button class="numButton">.</button>
-      <button class="equalsButton">=</button>
-      <button class="addButton">+</button>
+      <div class="numButtons">0</div>
+      <div class="numButtons">.</div>
+      <div class="equalsButton">=</div>
+      <div class="numButtons">+</div>
     </div>
   </body>
 </html>

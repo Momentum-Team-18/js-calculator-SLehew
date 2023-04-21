@@ -21,9 +21,11 @@ html * {font-family: Oswald, Georgia, serif}
 .clear {
     justify-content: flex-start;
     flex-grow: 1;
+    text-align: center;
+    border: 2px solid gray;
     
 }
-.answerBox {
+#answerBox {
     text-align: right;
     border: 2px solid blueviolet;
     align-content: end;
@@ -38,26 +40,38 @@ html * {font-family: Oswald, Georgia, serif}
 
 }
 
-.numButton {
+.numButtons {
     flex-grow: 1;
+    border: 2px solid gray;
+    text-align: center;
 }
 
 .divButton {
     flex-grow: 1;
+    border: 2px solid gray;
+    text-align: center;
 }
 
 .multiplyButton {
     flex-grow: 1;
+    border: 2px solid gray;
+    text-align: center;
 }
 
 .subtractButton {
     flex-grow: 1;
+    border: 2px solid gray;
+    text-align: center;
 }
 
 .equalsButton {
     flex-grow: 1;
+    border: 2px solid gray;
+    text-align: center;
 }
 
 .addButton {
     flex-grow: 1;
+    border: 2px solid gray;
+    text-align: center;
 }
